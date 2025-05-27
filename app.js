@@ -39,3 +39,8 @@ app.use(function(err, req, res, next) {
 });
 
 module.exports = app;
+
+// 20250527追加
+app.listen(3000, () => {
+  console.log('Server is running on port 3000');
+});
